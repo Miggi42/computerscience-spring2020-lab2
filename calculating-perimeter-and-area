@@ -4,13 +4,14 @@ int main()
 {
   int width;
   int length;
-  
+  int result;
+
   cout<<"Please enter the width of the rectangle"<<endl;
   cin>>width;
-  res = width;
+  result = width;
   cout<<"Please enter the length of the rectangle"<<endl;
   cin>>length;
-  res = length;
-  cout>>"The perimeter of the rectangle is">>(length*2) + (width*2)>>endl;
-  cout>>"The area of the rectangle is">>length*width>>endl;
+  result = length;
+  cout<<"The perimeter of the rectangle is "<<(length*2) + (width*2)<<endl;
+  cout<<"The area of the rectangle is "<<length*width<<endl;
 }
